@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.local
+*.env
+!.env.example
+!.env.local.example
+
+# Python (backend)
+venv/
+__pycache__/
+*.pyc
+uploads/
+faiss_cache/
+
+# Node / Next.js (frontend)
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
